@@ -1,5 +1,2 @@
-install: make get-deps
 language: cpp
-script:
-  - make hello cxxstd=c++14 defines=$DEFINES config=coverage -j2
-  
+script: make hello cxxstd=c++14
